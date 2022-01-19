@@ -27,7 +27,7 @@ const Property = ({
 			flexWrap='wrap'
 			w='420px'
 			p='5'
-			paddingTop='0px'
+			paddingTop='0'
 			justifyContent='flex-start'
 			cursor='pointer'
 		>
@@ -36,8 +36,10 @@ const Property = ({
 					src={coverPhoto ? coverPhoto.url : DefaultImage}
 					width={400}
 					height={260}
+					alt='house'
 				/>
 			</Box>
+
 			<Box w='full'>
 				<Flex paddingTop='2' alignItems='center' justifyContent='space-between'>
 					<Flex alignItems='center'>
